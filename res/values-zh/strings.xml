@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">成绩查询</string>
+    <string name="menu_about">关于</string>
+    <string name="student_id_hint">输入学号.</string>
+    <string name="student_passwd_hint">输入密码.</string>
+    <string name="button_logon">确认</string>
+    <string name="button_clear">清除</string>
+    <string name="button_quit">退出</string>
+    <string name="student_id">学号: </string>
+    <string name="student_name">姓名: </string>
+    <string name="blank">    </string>
+    <string name="loading">加载数据</string>
+    <string name="load_data">正在传输数据</string>
+    <string name="title_activity_score_list">分数列表</string>
+    <string name="spinner_title">选择学期:</string>
+    <string name="class_name">课程:</string>
+    <string name="class_score">分数:</string>
+    <string name="class_properity">属性:</string>
+    <string name="class_id">课程编号:</string>
+    <string name="class_testType">考试类型:</string>
+    <string name="class_length">学时:</string>
+    <string name="class_scoreType">分数类型:</string>
+    <string name="no_network">没有网络连接.</string>
+    <string name="error">学号或密码错误.</string>
+    <string name="title_activity_class_detail">课程详细信息</string>
+    <string name="remember_me">记住密码</string>
+    <string name="title_activity_about">关于</string>
+    <string name="totalNO">共有记录数:</string>
+    <string name="about_content">关于登录:\n
+        	当提示错误信息:\n
+        	学号或密码错误时， 可能是由于学校服务器没能正确提供数据导致。所以当无法登陆的时候，如果确定密码是正确的，可以过一会再次登录。 \n
+        	\n
+        	关于学号:\n
+       		由于我是本科生，所以我只了解最常见的8位数字的学号。如果你的学号无法登陆，请联系我\n
+                                         新浪微博 @东东大学生.
+        </string>
+
+</resources>

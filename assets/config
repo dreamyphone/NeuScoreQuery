@@ -1,0 +1,17 @@
+indent:auto
+wrap:500
+tidy-mark:no
+doctype:omit
+quote-nbsp:no
+quote-ampersand:no
+wrap-script-literals:yes
+force-output:yes
+add-xml-decl:yes
+enclose-text:yes
+show-errors:no
+show-warnings:no
+quote-marks:no
+literal-attributes:no
+numeric-entities:no
+drop-font-tags:yes
+clean:yes

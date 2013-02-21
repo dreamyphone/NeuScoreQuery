@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" 
+    android:padding="10dp">
+    
+    <TextView 
+        android:id="@+id/error"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+
+    <AutoCompleteTextView
+        android:hint="@string/student_id_hint"
+        android:id="@+id/student_id" 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/error"
+        android:maxLength="8"
+        android:inputType="number" />
+    <EditText 
+        android:id="@+id/student_passwd"
+        android:inputType="textPassword"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/student_id"
+        android:hint="@string/student_passwd_hint"
+        android:maxLength="25"/>
+    
+    <LinearLayout 
+        android:id="@+id/button_group"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/student_passwd">
+        <Button 
+            android:id="@+id/button_submit"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:text="@string/button_logon"
+            android:layout_weight="1"/>
+        <Button 
+            android:id="@+id/button_clear"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:text="@string/button_clear"
+            android:layout_weight="1"/>
+        <Button 
+            android:id="@+id/button_quit"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:text="@string/button_quit"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    
+    <CheckBox 
+        android:id="@+id/remember_me"
+        android:checked="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_group"
+        android:text="@string/remember_me"
+        android:textSize="13sp"/>
+
+</RelativeLayout>
